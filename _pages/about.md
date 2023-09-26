@@ -19,4 +19,4 @@ I am a PhD Candidate in Economics at UC Berkeley (graduation expected in May 202
 Prior to my graduate studies, I was a policy analyst at the Australian Department of the Treasury. I received a Bachelor of Commerce/Bachelor of Economics (Honors First Class and the University Medal) from the University of New South Wales (Sydney, Australia). 
 
 ## Contact info
-I can be reached at [kai.zen@berkeley.edu](mailto:kai.zen@berkeley.edu). Here is my [LinkedIn](https://www.linkedin.com/in/kai-zen-48a5221b7).
+I can be reached at [kai.zen@berkeley.edu](mailto:kai.zen@berkeley.edu). Here is my [LinkedIn](https://www.linkedin.com/in/kai-zen-48a5221b7) and [resume]({{ site.cvpath }})
