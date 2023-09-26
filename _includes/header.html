@@ -42,12 +42,6 @@
                   {% assign about_title = page.title %}
                 {% endif %}
               {% endfor %}
-            <!-- CV -->
-            {%- if site.cvpath -%}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ site.cvpath }}" target="_blank">Resume</a>
-            </li>
-            {%- endif -%}
               <!-- About -->
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
@@ -66,7 +60,12 @@
                 </a>
               </li>
               {%- endif %}
-
+              <!-- CV -->
+            {%- if site.cvpath -%}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.cvpath }}" target="_blank">Resume</a>
+            </li>
+            {%- endif -%}
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
